@@ -1,4 +1,4 @@
-# taller-master-ugr
+# taller-master-ugr Ruben Morales
 A Git Training Repository for Master Students at UGR
 
 This repository is designed to help master students develop professional Git skills through hands-on exercises organized by difficulty level.
