@@ -9,7 +9,7 @@
 ## 📋 Exercise Summary
 
 ### Exercise: Newbie
-**Status**: ✅ Completed
+**Status**: ⏳ In Progress
 
 **What I did**:
 I've created a new branch including basic git commands to create and modify files.
