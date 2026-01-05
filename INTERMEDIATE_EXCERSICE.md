@@ -127,10 +127,9 @@ Rate your confidence level for each topic (1-5, where 5 is very confident):
 ## 🔗 Evidence/Artifacts
 
 **Links to branches/commits**:
-- Link to your outcome branch: `https://github.com/Ruben6543/taller-master-ugr/tree/feature/newbie`
+- Link to your outcome branch: `https://github.com/Ruben6543/taller-master-ugr/commits/feature/intermediate/`
 - Key commits demonstrating your work:
-  - Commit hash: [Short description]
-  - Commit hash: [Short description]
+  - Commit hash: [32a3f1753]
 
 **Additional files created** (if any):
 - File 1: conclict_file.txt
@@ -153,7 +152,10 @@ Before submitting, ensure you have:
 
 ## 📝 Additional Comments
 
-Conflicts are not important until you get one
+Conflicts are not important until you get one.
+I also learned how to solve the problem if you are currently working into the wrong branch with:
+ - git stash
+ - git stash apply
 
 ---
 
