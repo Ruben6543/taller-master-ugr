@@ -1,0 +1,214 @@
+[33mcommit 9cfdb771bcf707f1bd7357a8d3fcb3dc9cdf2d26[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/intermediate[m[33m)[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 19:37:46 2026 +0100
+
+    commit 3 for history - this is an updated commit message using ammend
+
+[33mcommit 3c0ec7066ebb0433b69aeea294a45ab861c56ef7[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 19:37:18 2026 +0100
+
+    commit 2 for history
+
+[33mcommit 6fc26620c89cd27441c57451ab648a9e27ec1ffd[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 19:36:42 2026 +0100
+
+    commit 1 for history
+
+[33mcommit a97f9c2ef1c866527b48b1779f9d1eba4fefc2b0[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 19:16:21 2026 +0100
+
+    added details in intermediate excersice readme file
+
+[33mcommit 61382b86842bb389f0c9fcae37ee22ba556d58b4[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 19:14:18 2026 +0100
+
+    added intermediate branch
+
+[33mcommit 32a3f17530ab795d77a118be22f8c4ec4545dd0c[m[33m ([m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;32mfeature/newbie[m[33m)[m
+Merge: 9effaa8 ac953a7
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 19:04:19 2026 +0100
+
+    Merge branch 'feature/conflict-1' into feature/newbie
+
+[33mcommit 9effaa8cd31ca63c2ffbbcca00eb6f49dc85f2c7[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 18:59:17 2026 +0100
+
+    Modify file in newbie branch
+
+[33mcommit ac953a7c824411cf00d61a06cc17c12564144972[m[33m ([m[1;32mfeature/conflict-1[m[33m)[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 18:56:52 2026 +0100
+
+    Add initial file for conflicts
+
+[33mcommit f425e756fb8a69112d754d88f122d493df4ca22d[m[33m ([m[1;31morigin/feature/newbie[m[33m)[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 17:35:55 2026 +0100
+
+    added newbie description
+
+[33mcommit a2f02a8bf261a7049fb9f8def9e9a5126d576869[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 17:24:57 2026 +0100
+
+    newbie
+
+[33mcommit 1a0d4af4b8621590e55a9c1dfd7984825a784cf2[m[33m ([m[1;31morigin/feature/personal-info[m[33m, [m[1;32mfeature/personal-info[m[33m)[m
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 16:58:37 2026 +0100
+
+    added student name
+
+[33mcommit 9602351f9c1fe509f5153991511918a200c3664d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Miguel Angel Oltra <miguel.oltra@se.com>
+Date:   Mon Dec 22 10:27:09 2025 +0100
+
+    Adding GenAI guidelines
+
+[33mcommit 7ad3af424c60e0c1d4f78890a6eb8daf3787beb8[m
+Author: Miguel Angel Oltra <miguel.oltra@se.com>
+Date:   Mon Dec 22 10:08:26 2025 +0100
+
+    docs: update main branch files to reflect consolidated exercise structure (1 per level)
+
+[33mcommit 4d9131e89c0cadb10d07b22cd1809ef94e769072[m
+Author: Miguel Angel Oltra <miguel.oltra@se.com>
+Date:   Sun Nov 30 13:26:05 2025 +0100
+
+    chore: remove instructor files from repository tracking
+    
+    Remove INSTRUCTOR_GUIDE.md, SUMMARY.md, and MODEL_SPEC.MD from Git tracking.
+    These files are now excluded via .gitignore and kept locally only.
+
+[33mcommit adbb3076b168a9fc276126e67a25e9cda7e2e551[m
+Merge: 88a54ab e4709e6
+Author: Miguel A. Oltra <39242642+miguel-oltra@users.noreply.github.com>
+Date:   Sun Nov 30 13:24:07 2025 +0100
+
+    Merge pull request #9 from miguel-oltra/patch-gitignore-update
+    
+    chore: add SUMMARY.md to gitignore for instructor files
+
+[33mcommit e4709e6fb54e82c3e07c5a123f9b200690725c71[m
+Author: Miguel Angel Oltra <miguel.oltra@se.com>
+Date:   Sun Nov 30 13:22:50 2025 +0100
+
+    Updated CODEOWNERS file
+
+[33mcommit 2a39a021d41ed3080577e9d9e6fee2d6e91faed3[m
+Author: Miguel Angel Oltra <miguel.oltra@se.com>
+Date:   Sun Nov 30 13:13:16 2025 +0100
+
+    chore: add INSTRUCTOR_GUIDE.md to gitignore
+
+[33mcommit 0abdbae680f57cd505ad7b5bfd0a5f5a070cfcbc[m
+Author: Miguel Angel Oltra <miguel.oltra@se.com>
+Date:   Sun Nov 30 13:09:17 2025 +0100
+
+    chore: add SUMMARY.md to gitignore for instructor files
+
+[33mcommit 88a54ab6c962d5291516fb8fa0d00006ca506d77[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sun Nov 30 12:22:44 2025 +0100
+
+    chore: Add .gitignore to exclude instructor files and sensitive data
+    
+    - Exclude MODEL_SPEC.MD (instructor-only specification)
+    - Ignore IDE/editor configuration files
+    - Exclude OS-specific files (.DS_Store, Thumbs.db)
+    - Critical: Ignore private keys, GPG keys, credentials
+    - Exclude common build artifacts and dependencies
+    - Allow student practice files locally without committing
+
+[33mcommit e39ff082ef1a1261babd68847fc50e39a3030111[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Nov 29 12:40:40 2025 +0100
+
+    PROMPT for updated
+
+[33mcommit df1cfdd93076ccf06f33e8a2f5bbe1404909ad6f[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Nov 29 12:36:12 2025 +0100
+
+    fix: Update CODEOWNERS to allow trainee work while protecting exercise branches
+    
+    - Remove global ownership that would block all trainee work
+    - Focus protection only on master branch (for discovery learning)
+    - Trainees can freely work in forks or outcome branches
+    - Discovery moment preserved: PRs to master branch require review
+    - Simplified team structure - only @miguel-oltra required
+    - Clear documentation of three trainee workflow scenarios
+
+[33mcommit a011fad1346e726c255b2f97852aa34655c7a065[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Nov 29 12:32:28 2025 +0100
+
+    config: Add CODEOWNERS file for code review requirements
+    
+    - Define code ownership for each exercise level branch
+    - Master level requires @git-flow-experts approval (discovery exercise)
+    - Security team reviews Master of Universe submissions
+    - Enables trainees to discover code ownership during branching exercise
+    - Supports branch protection rules with required reviews
+
+[33mcommit 769be64313a3d1e24fea7cd66e3bf11e2fe039ca[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Nov 29 12:22:06 2025 +0100
+
+    docs: Add complete implementation summary
+
+[33mcommit 9d008fae7053e3258a951fb6e33c1021b062c258[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Nov 29 12:17:51 2025 +0100
+
+    Updated README.MD with guidelines for the exercises
+
+[33mcommit f66bf22785e3b0d9bebb951e6109c6e179e9c658[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Nov 29 12:08:11 2025 +0100
+
+    docs: Update MODEL_SPEC.MD with PROMPT 2 requirements
+
+[33mcommit c24fd578ab5d2807243392d2d365eb2329ac9dee[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Nov 29 12:07:23 2025 +0100
+
+    docs: Add outcome submission process and evaluation criteria
+
+[33mcommit ec488d08e6dc613cf8de43029a1d2b96d09d891e[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Nov 29 11:57:48 2025 +0100
+
+    Update main README with complete training overview and navigation
+
+[33mcommit dc582031fed7a252a3c583fe16f497dbc9dcedd1[m
+Author: Miguel Angel Oltra <SESA219665@se.com>
+Date:   Sat Oct 25 12:14:28 2025 +0200
+
+    Revert "Update README.md"
+    
+    This reverts commit e2db1ca85b4c8eca7b31d883744bd3a6f5e444b3.
+
+[33mcommit e2db1ca85b4c8eca7b31d883744bd3a6f5e444b3[m
+Author: Miguel A. Oltra <39242642+miguel-oltra@users.noreply.github.com>
+Date:   Sat Nov 30 16:54:41 2024 +0100
+
+    Update README.md
+
+[33mcommit 3d651c33cdfa92926d7706f05c9258ecd7e992db[m
+Author: Miguel A. Oltra <39242642+miguel-oltra@users.noreply.github.com>
+Date:   Sat Nov 30 16:53:44 2024 +0100
+
+    Update README.md
+
+[33mcommit 4cc5635bea477d934da36d0de8fb3c6c48ed14d5[m
+Author: Miguel A. Oltra <39242642+miguel-oltra@users.noreply.github.com>
+Date:   Sat Nov 30 16:33:07 2024 +0100
+
+    Initial commit
