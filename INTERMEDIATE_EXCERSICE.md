@@ -12,79 +12,99 @@
 **Status**: ✅ Completed
 
 **What I did**:
-[Brief description of what you accomplished in this exercise. Since each level has one comprehensive exercise with multiple parts, describe your overall achievement and the key parts you completed.]
+I created a new branch and midified the same file in the newbie and conflict branch to resolve conflicts, then I created a new tag
 
 **Commands Used**:
 ```bash
 # List the key Git commands you used across all parts of the exercise
-git command1
-git command2
-# etc.
+git commit -m "Add initial file for conflicts"
+git checkout feature/newbie
+
+echo "Content from main" > conflict_file.txt
+git commit -am "Modify file in newbie branch"
+git merge feature/conflict-1
+git tag v1.0.0
+
 ```
 
 **Results/Output**:
 ```
-# Paste relevant command outputs, git log, or status messages
-# Example:
-$ git log --oneline -5
-abc1234 feat: Add new feature
-def5678 fix: Resolve merge conflict
+$ git log
+commit 32a3f17530ab795d77a118be22f8c4ec4545dd0c (HEAD -> feature/newbie, tag: v1.0.0)
+Merge: 9effaa8 ac953a7
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 19:04:19 2026 +0100
+
+    Merge branch 'feature/conflict-1' into feature/newbie
+
+commit 9effaa8cd31ca63c2ffbbcca00eb6f49dc85f2c7
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 18:59:17 2026 +0100
+
+    Modify file in newbie branch
+
+commit ac953a7c824411cf00d61a06cc17c12564144972 (feature/conflict-1)
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 18:56:52 2026 +0100
+
+    Add initial file for conflicts
+
+commit f425e756fb8a69112d754d88f122d493df4ca22d (origin/feature/newbie)
+Author: Ruben Arturo Morales Meneses <rm372718@gmail.com>
+Date:   Mon Jan 5 17:35:55 2026 +0100
+
+    added newbie description
+
+
 ```
 
-**Screenshots** (if applicable):
-- [Screenshot 1: Description]
-- [Screenshot 2: Description]
+**Screenshots**:
+![App Screenshot](images/confLicts.png)
 
 ---
 
 ## 🎯 Key Learnings
 
 **Main concepts I learned**:
-1. [Concept 1, e.g., "How to create and switch between branches efficiently"]
-2. [Concept 2, e.g., "The difference between merge and rebase"]
-3. [Concept 3]
+1. How to work in different branches.
+2. How to resolve conflicts
+3. How to include tags and their purpose
 
 **Skills I improved**:
-- [Skill 1, e.g., "Reading and understanding Git logs"]
-- [Skill 2, e.g., "Resolving merge conflicts"]
-- [Skill 3]
+- Conflicts, colaboration and control.
+- Tags for updates
 
 ---
 
 ## 🚧 Challenges Faced
 
 ### Challenge 1: [Brief title]
-**Problem**: [Describe the challenge you encountered]
+**Problem**: Create a conflict manually and understand ow it works.
 
-**Solution**: [Explain how you resolved it or what you learned from it]
+**Solution**: research.
 
 **Commands/Approach**:
 ```bash
-# Commands or approach used to solve the problem
+git merge feature/conflict-1
+
 ```
 
----
 
-### Challenge 2: [Brief title]
-**Problem**: [Describe the challenge]
-
-**Solution**: [Your resolution]
-
----
 
 ## 💭 Personal Reflection
 
 **What surprised me**:
-[What unexpected things did you discover about Git?]
+How conflicts work, and how to realise that there will be one.
 
 **What I found most difficult**:
-[Which concepts or exercises were most challenging?]
+Create a conflict by my own.
 
 **What I found most useful**:
-[Which skills do you think will be most valuable in real projects?]
+Tags and solving conflicts
 
 **How I would apply this in real projects**:
-[Describe how you might use these Git skills in professional work]
+Tags for updates, versioning and control.
+Conflicts if exist
 
 ---
 
@@ -94,48 +114,48 @@ Rate your confidence level for each topic (1-5, where 5 is very confident):
 
 | Topic | Confidence (1-5) | Notes |
 |-------|------------------|-------|
-| Basic Git commands | [ ] | |
-| Branching & merging | [ ] | |
-| Remote operations | [ ] | |
-| Conflict resolution | [ ] | |
-| History rewriting | [ ] | |
-| Git hooks | [ ] | |
-| Security practices | [ ] | |
+| Basic Git commands | [5] | |
+| Branching & merging | [5] | |
+| Remote operations | [5] | |
+| Conflict resolution | [5] | |
+| History rewriting | [1] | |
+| Git hooks | [1] | |
+| Security practices | [1] | |
 
 ---
 
 ## 🔗 Evidence/Artifacts
 
 **Links to branches/commits**:
-- Link to your outcome branch: `https://github.com/miguel-oltra/taller-master-ugr/tree/group-X-outcomes/[level]`
+- Link to your outcome branch: `https://github.com/Ruben6543/taller-master-ugr/tree/feature/newbie`
 - Key commits demonstrating your work:
   - Commit hash: [Short description]
   - Commit hash: [Short description]
 
 **Additional files created** (if any):
-- File 1: [Description]
-- File 2: [Description]
+- File 1: conclict_file.txt
+
 
 ---
 
 ## ✅ Completion Checklist
 
 Before submitting, ensure you have:
-- [ ] Completed the exercise for your chosen level (including all parts)
-- [ ] Documented all commands used with their outputs
-- [ ] Described challenges and how you resolved them
-- [ ] Provided a thoughtful reflection on your learning
-- [ ] Self-assessed your confidence in each topic
-- [ ] Pushed your outcome branch to the remote repository
+- [x] Completed the exercise for your chosen level (including all parts)
+- [x] Documented all commands used with their outputs
+- [x] Described challenges and how you resolved them
+- [x] Provided a thoughtful reflection on your learning
+- [x] Self-assessed your confidence in each topic
+- [x] Pushed your outcome branch to the remote repository
 - [ ] Created a Pull Request (if required by your instructor)
 
 ---
 
 ## 📝 Additional Comments
 
-[Any additional thoughts, questions, or feedback about the exercises]
+Conflicts are not important until you get one
 
 ---
 
-**Submission Date**: [Date]  
-**Ready for Review**: ✅ Yes / ❌ No
+**Submission Date**: [05/01/2026]  
+**Ready for Review**: ✅ Yes 
